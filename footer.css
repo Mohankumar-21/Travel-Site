@@ -1,0 +1,30 @@
+.footer
+{
+    background-color: #198754 !important;
+    padding: 1.2rem !important;
+}
+
+.footer-container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.para-content
+{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center !important;
+    line-height: 1.5rem;
+}

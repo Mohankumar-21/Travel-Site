@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTravel - Your Travel Partner </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha384-g6wm8sApxHgKucgRU/x3ddkIIoTdKuLzNuw3LVz2PRgt3GRo9P1eogwaO3W8a/d5" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="destination.css">
+    <link rel="stylesheet" href="testimonial.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container1 ">
+            <div class="container-list">    
+                <a class="navbar-title" href="#">
+                    <p>Go Travel</p>
+                </a>
+                <button class="navbar1-toggler" onclick="toggleNavbar()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-list">
+                    <ul class="list-items">
+                        <li class="list1">
+                            <a class="link1" href="#">Home</a>
+                        </li>
+                        <li class="list2">
+                            <a class="link1" href="#about">About Us</a>
+                        </li>
+                        <li class="list3">
+                            <a class="link1" href="#destination">Destination</a>
+                        </li>
+                        <li class="list4">
+                            <a class="link1" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="list5">
+                            <a class="link1" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="Enter-page">
+                    <button class="bbtn bbtn1" type="submit">SignUp</button>
+                    <button class="bbtn bbtn2" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <div class="homepage-container">
+        <div class="button-slider" id="buttonSlider" >
+            <button type="button" class="active"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+        </div>
+        <div class="img-container">
+            <div class="image-items">
+                <img src="img/ban1.jpg" alt="image1" class="img-item">
+                <div class="description">
+                    <h3>Enjoy With Your Club &amp; Create Memories</h3>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="bbtn">Explore Now</button>
+                </div>
+            </div>
+            <div class="image-items">
+                <img src="img/ban2.jpg" alt="image2" class="img-item">
+                <div class="description">
+                    <h3>Breath Taking Destinations</h3>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="bbtn">Explore Now</button>
+                </div>
+            </div>
+            <div class="image-items">
+                <img src="img/ban3.jpg" alt="image3" class="img-item">
+                <div class="description">
+                    <h3>Experience The Travel Luxury</h3>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="bbtn">Explore Now</button>
+                </div>
+            </div>
+            <div class="image-items">
+                <img src="img/ban4.jpg" alt="image4" class="img-item">
+                <div class="description">
+                    <h3>Explore the Unexpolored Life Experience</h3>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="bbtn">Explore Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-button">
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+    </div>
+
+    <!-- About Us -->
+
+    <section id="about">
+        <div class="about-container">
+            <div class="arrange-about">
+                <div class="about-content">
+                    <p class="hea-content">
+                        About Us
+                    </p>
+                    <h3 class="head-content">
+                        Our Journey is Started With a Determination To Travel All Around This World.
+                    </h3>
+                    <p class="detail-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quo accusantium eveniet!
+                        Eligendi,
+                        officia! Minima soluta maxime minus explicabo accusamus amet quaerat optio, saepe hic dolor vel
+                        iure
+                        velit enim?
+                    </p>
+                </div>
+                <div class="img-content">
+                    <img class="img-height" src="img/abt-us.jpg" alt="Travel image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Destination-->
+
+    <section id="destination">
+        <div class="destination-container">
+            <div class="dest-content-container">
+                <div class="dest-content">
+                    <div class="dest-head">
+                        Destination
+                    </div>
+                    <p class="dest-description">
+                        Explore The Breath-Taking Adventures With Us
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="dest-container-picture">
+            <div class="destination-row">
+                <div class="dest-col-picture">
+                    <div class="dest-card">
+                        <img src="img/dest-img1.jpg" alt="destinationimage2" class="dest-img">
+                        <div class="dest-card-body">
+                            <div class="card-city">Get Into Wild In Indonesia</div>
+                            <div class="card-details">
+                                <p>3 Days 4 Nights</p>
+                                <p style="font-weight: bold">Rs:19,999</p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="dest-card">
+                            <img src="img/dest-img2.jpg" alt="destinationimage2" class="dest-img">
+                            <div class="dest-card-body">
+                                <div class="card-city">Get Into Wild In Indonesia</div>
+                                <div class="card-details">
+                                    <p>3 Days 4 Nights</p>
+                                    <p style="font-weight: bold">Rs:19,999</p>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="dest-card">
+                                <img src="img/dest-img3.jpg" alt="destinationimage3" class="dest-img">
+                                <div class="dest-card-body">
+                                    <div class="card-city">Get Into Wild In Indonesia</div>
+                                    <div class="card-details">
+                                        <p>3 Days 4 Nights</p>
+                                        <p style="font-weight: bold">Rs:19,999</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="dest-card">
+                                    <img src="img/dest-img4.jpg" alt="destinationimage4" class="dest-img">
+                                    <div class="dest-card-body">
+                                        <div class="card-city">Get Into Wild In Indonesia</div>
+                                        <div class="card-details">
+                                            <p>3 Days 4 Nights</p>
+                                            <p style="font-weight: bold">Rs:19,999</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+         </div>
+    </section>
+
+    <!--Testimonials-->
+
+    <section id="testimonials" class="testimonial">
+               <div class="testimonial-container">
+                   <div class="testimonial-row">
+                      <div class="testimonial-column">
+                         <div class="testimonial-content">
+                             <div class="testimonial-description">
+                                <div class="testimonial-item active">
+                                    <div class="testimonial-card">
+                                        <p class="textcenter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad sit illo itaque, maiores dolores voluptates exercitationem! Molestias illo officiis omnis. Ipsa sed doloribus laboriosam explicabo odit, optio similique dolorem.</p>
+                                        <p class="test-color">Elizabath</p>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="testimonial-card">
+                                        <p class="textcenter">Lorem ipsum dolor sit amet  adipisicing elit. Possimus illo itaque, maiores dolores voluptates exercitationem! Molestias illo officiis omnis. Ipsa sed doloribus laboriosam explicabo odit, optio similique dolorem.</p>
+                                        <p class="test-color">Ahmed Shezath</p>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item">
+                                    <div class="testimonial-card">
+                                        <p class="textcenter">Lorem ipsum dolor sit amet consectetu elit. Possimus ad sit illo itaque, maiores dolores voluptates exercitationem! Molestias illo officiis omnis. Ipsa sed doloribus laboriosam explicabo odit, optio similique dolorem.</p>
+                                        <p class="test-color">Naveen Patnaik</p>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="test-slider-button">
+                                <button class="prev1" onclick="testprevSlide()">&#10094</button>
+                                <button class="next1" onclick="testnextSlide()">&#10095</button>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+               </div>
+    </section>
+    
+    <!--Contact -->
+    <section  class="contact" id="contact">
+        <div class="contact-container">
+             <div class="contact-row">
+                <div class="contact-col">
+                    <h4>Subscribe To Our News-Letter</h4>
+                    <form action="#">
+                        <div class="email-content" >
+                            <label class="form-label" for="inputmail">Email address</label>
+                             <input id="inputmail" class="getemail" type="email">
+                               <div class="email-help">
+                               We'll never share your email with anyone else
+                               </div>
+                        </div> 
+                        <div class="subscripe-content">
+                            <input class="check" type="checkbox" value="">
+                            <label>Agree All the Terms & Services</label>
+                            <div class="button-align">
+                                <button type="submit">Subscripe</button>
+                            </div>
+                        </div>
+                       
+                    </form>
+                </div>
+             </div>
+        </div>
+
+        <!-- Footer -->
+    </section>
+       
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <p class="para-content" style="text-align: center;">ThIs Website is Created For Educational Purposes Not For Any Commercial Use @2023</p>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+    <script src="testimonial.js"></script>
+</body>
+
+</html>
+
